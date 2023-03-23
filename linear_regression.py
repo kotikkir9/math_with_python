@@ -19,4 +19,5 @@ def least_squares(points) -> Linear_Regression:
 
     b1= x_y_total / x_pow_total
     b0 = y_mean - (b1 * x_mean)
+    
     return Linear_Regression(b0, b1)

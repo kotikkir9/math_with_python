@@ -22,5 +22,3 @@ def test_least_squares_3():
     assert round(result.intercept, 3) == 1.548
     assert round(result.slope, 3) == 0.644
     assert result.equation_string() == 'y = 1.548 + 0.644x'
-
-    
